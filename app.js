@@ -7,5 +7,5 @@ if(numOfMatches>=20)
     document.write("Hi our follower,You shall see more of our matches")
 }else if(numOfMatches<10)
 {
-    document.write("Hi our good follower,You didnt see a lot of our matches")
+    document.write("Hi our follower,You didnt see a lot of our matches")
 }
