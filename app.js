@@ -10,7 +10,7 @@ if(numOfMatches>=20)
     document.write("Hi our follower,You didnt see a lot of our matches")
 }*/
 var star=prompt("What star rating would you give, 1-5?")
-while(star<1||star>5)
+while(!(star>=1 && star<=5))
 {
     star=prompt("What star rating would you give, 1-5?")
 }
