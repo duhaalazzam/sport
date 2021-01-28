@@ -12,10 +12,9 @@ if(numOfMatches>=20)
 var star=prompt("What star rating would you give, 1-5?")
 while(star<1||star>5)
 {
-    alert("Invalid input")
     star=prompt("What star rating would you give, 1-5?")
 }
 for(var i=0;i<star;i++)
 {
-document.write(<img src=fifa.jpg />)
+document.write('<img src=fifa.jpg />')
 }
