@@ -1,13 +1,31 @@
+*{
+    background-color:#f4f8b9;
+}
 h1{
+    font-size: 200%;
     text-align: center;
+    
+    background-color: rgba(32, 200, 154,0.5)
 }
 header nav ul{
     list-style: none;
 }
 header nav ul li{
     display: inline;
-    margin:20px;     
+    margin:150px;     
 }
 header nav ul li a{
+    font-size: 150%;
     text-decoration: none;
+    background-color:#e7bcd4;
+}
+img{
+    margin-left:400px;
+}
+main p{
+    font-size: 150%;
+    background-color: rgb(145, 225, 252);
+}
+footer p{
+    background-color: rgb(252, 227, 145);
 }
