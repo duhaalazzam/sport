@@ -1,3 +1,4 @@
+function time(){
 var hourNow = prompt('what is the time now');
 while(hourNow==''||hourNow>24||hourNow<0){
     hourNow = prompt('what is the time now');
@@ -11,7 +12,8 @@ if(hourNow >= 18  && hourNow <= 24){ //f
     message = 'Good morning';
 }
 document.write('<h2>' + message + '</h2>');
-
+}
+function Matches(){
 var numOfMatches=prompt("How many Fasily matches you have seen?")
 while(numOfMatches=='')
 {
@@ -27,6 +29,8 @@ if(numOfMatches>=20)
 {
     document.write("Hi our follower,You didnt see a lot of our matches")
 }
+}
+function rating(){
 var star=prompt("What star rating would you give, 1-5?")
 while(!(star>=1 && star<=5))
 {
@@ -36,3 +40,7 @@ for(var i=0;i<star;i++)
 {
 document.write('<img src=fifa.jpg />')
 }
+}
+time();
+Matches();
+rating();
