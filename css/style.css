@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline;
+    margin:20px;     
+}
+header nav ul li a{
+    text-decoration: none;
+}
